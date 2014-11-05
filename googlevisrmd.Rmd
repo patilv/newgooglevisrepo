@@ -30,6 +30,8 @@ Hist <- gvisHistogram(datHist, options=list(
 print(Hist,file="hist.html")
 ```
 
+<iframe src="hist.html" width="800" height="600"></iframe>
+
 Wow that was a histogram.
 
 
@@ -44,4 +46,4 @@ Line <- gvisLineChart(df,options=list(width=750, height=500))
 print(Line,file="line.html")
 ```
 
-
+<iframe src="line.html" width="800" height="600"></iframe>
